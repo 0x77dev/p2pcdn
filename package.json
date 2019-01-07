@@ -1,0 +1,21 @@
+{
+  "name": "peerToPeer-cdn",
+  "displayName": "p2pcdn",
+  "version": "0.0.0",
+  "description": "A p2p CDN.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "repository": "https://github.com/0x77dev/p2pcdn.git",
+  "author": "Misha Marinenko <0x77dev@protonmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "p2p": "^0.10.2"
+  }
+}
